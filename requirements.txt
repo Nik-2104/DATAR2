@@ -1,0 +1,27 @@
+fastapi
+uvicorn[standard]
+pydantic>=2.0
+pydantic-settings
+python-dotenv
+asyncio
+
+# MCP
+mcp[cli]
+
+# Gemini
+google-genai
+
+# Dataset sources
+huggingface_hub
+datasets
+kaggle
+
+# Dataset processing
+pandas
+pyarrow
+pillow
+
+# File/API handling
+python-multipart
+httpx
+requests
